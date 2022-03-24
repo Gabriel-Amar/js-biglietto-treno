@@ -13,5 +13,5 @@ if (anni > 65){
 } else if (anni < 18){
     console.log ((prezzo - scontoMin).toFixed(2));
 } else{
-    console.log(prezzo)
+    console.log((prezzo).toFixed(2));
 }
